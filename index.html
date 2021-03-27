@@ -1,1 +1,205 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+</head>
+<body>
+  <div id="first">
+    <div id="bg-img">
+		<img src="images/bg-pattern-intro.svg"/>
+	</div>
+    <nav id="nav">
+		<div id="navin">
+			<div id="logo">
+				<img src="images/logo.svg"/>
+			</div>
+			<div id="menuout">
+				<div id="menuopen" onclick="menu()">
+					<img src="images/icon-hamburger.svg"/>
+				</div>
+				<div id="menu">
+					<div class="menu">
+						<div class="menuheader">
+							Product
+						</div>
+						<div class="submenu">
+							<ul>
+								<li>Overview</li>
+								<li>Pricing</li>
+								<li>Marketplace</li>
+								<li>Features</li>
+								<li>Integrations</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu">
+						<div class="menuheader">
+							Company
+						</div>
+						<div class="submenu">
+							<ul>
+								<li>About</li>
+								<li>Team</li>
+								<li>Blog</li>
+								<li>Careers</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu">
+						<div class="menuheader">
+							Connect
+						</div>
+						<div class="submenu">
+							<ul>
+								<li>Contact</li>
+								<li>Newsletter</li>
+								<li>LinkedIn</li>
+							</ul>
+						</div>
+					</div>
+					<div id="in">
+						<a href="" id="login">Login</a>
+						<a href="" id="signin">Sign Up</a>
+					</div>
+				</div>
+			</div>
+			<div id="menuclose" onclick="menu()">
+				<img src="images/icon-close.svg"/>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+	</nav>
+    <header id="hdr"><h1>A modern publishing platform</h1></header>
+    <div id="subhdr">Grow your audience and build your online brand</div>
+
+    <div id="firstbtns">
+		<button id="start">Start for Free</button>
+		<button id="more">Learn More</button>
+	</div>
+  </div>
+
+  <div id="design">
+	<header id="designheader"><h1>Designed for the future</h1></header>
+	<div id="designimgmobile">
+		<img src="images/illustration-editor-mobile.svg"/>
+	</div>
+	<div id="designcontents">
+		<div class="contentheader"><h2>Introducing an extensible editor</h2></div>
+		<div class="content">
+			Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+			The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+			videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+			change the looks of a blog.
+		</div>
+		<div class="contentheader"><h2>Robust content management</h2></div>
+		<div class="content">
+			Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+			by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+
+		</div>
+	</div>
+	<div id="designimg">
+		<img src="images/illustration-editor-desktop.svg"/>
+	</div>
+  </div>
+  
+  <div id="art">
+    <div id="artbg">
+		<div id="artbgin">
+			<img src="images/bg-pattern-circles.svg"/>
+		</div>
+	</div>
+	<div id="artin">
+		<img src="images/illustration-phones.svg"/>
+		<div id="artcontent">
+			<div id="arthdr"><h1>State of the Art Infrastructure</h1></div>
+			<div id="arttext">
+				With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+				This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+			</div>
+		</div>
+	</div>
+  </div>
+
+  <div id="power">
+	<header id="powerheader"><h1>Free, open, simple</h1></header>
+	<div id="powerimgmobile">
+		<img src="images/illustration-laptop-mobile.svg">
+	</div>
+	<div id="powerimg">
+		<img src="images/illustration-laptop-desktop.svg">
+	</div>
+	<div id="powercontents">
+		<div class="pcontentheader"><h2>Introducing an extensible editor</h2></div>
+		<div style="clear:both"></div>
+		<div class="pcontent">
+			 Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
+		</div>
+		<div style="clear:both"></div>
+		<div class="pcontentheader"><h2>Powerful tooling</h2></div>
+		<div style="clear:both"></div>
+		<div class="pcontent">
+			Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+  capable of producing even the most complicated sites.
+		</div>
+		<div style="clear:both"></div>
+	</div>
+  </div>
+  
+  <footer id="footer">
+	<div id="footerin">
+		<div id="footerlogo">
+			<img src="images/logo.svg"/>
+		</div>
+		<div id="footermenu">
+			<div>
+				<div class="fmenuheader">Product</div>
+				<ul>
+					<li>Overview</li>
+					<li>Pricing</li>
+					<li>Marketplace</li>
+					<li>Features</li>
+					<li>Integrations</li>
+				</ul>
+			</div>
+			<div>
+				<div class="fmenuheader">Company</div>
+				<ul>
+					<li>About</li>
+					<li>Team</li>
+					<li>Blog</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+			<div>
+				<div class="fmenuheader">Connect</div>
+				<ul>
+					<li>Contact</li>
+					<li>Newsletter</li>
+					<li>LinkedIn</li>
+				</ul>
+			</div>
+		</div>
+		<div style="clear:both"></div>
+	</div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Furkan Doğan</a>.
+  </div>
+  
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
