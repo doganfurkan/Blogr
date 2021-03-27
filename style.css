@@ -501,7 +501,7 @@ body{
 	#bg-img{
 		position:absolute;
 		left:50%;
-		transform:translate(-40%,-35%) scale(.8);
+		transform:translate(-40%,-40%) scale(1);
 		z-index:0;
 		}
 	
