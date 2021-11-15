@@ -747,6 +747,8 @@ body{
 		left:0;
 		top:0;
 		width:50%;
+		display:flex;
+		justify-content:flex-end;
 		}
 	
 	#designimg img{
@@ -756,11 +758,8 @@ body{
 		}
 		
 	#powerimg img{
-		transform:translate(-40%,80px);
-		position:relative;
+		transform:translate(0,80px);
 		object-fit:cover;
-		right:0;
-		max-width:200%;
 		}
 		
 	#designcontents,#powercontents{
