@@ -378,7 +378,7 @@ body{
 		max-width:1200px;
 		margin:auto;
 		position:relative;
-		padding:3em 0;
+		padding:.2em .2em;
 		}
 		
 	#artin img{
@@ -849,7 +849,7 @@ body{
 		max-width:1200px;
 		margin:auto;
 		position:relative;
-		height:300px;
+		padding:3em 0;
 		}
 		
 	#artin img{
