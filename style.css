@@ -528,7 +528,7 @@ body{
 		
 	#navin{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		text-align:left;
 		position:relative;
 		}
@@ -638,7 +638,7 @@ body{
 		
 	#hdr{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		text-align:center;
 		padding:90px 0px 10px 0px;
@@ -654,7 +654,7 @@ body{
 		
 	#subhdr{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		text-align:center;
 		color:#fff;
@@ -667,7 +667,7 @@ body{
 		
 	#firstbtns{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		text-align:center;
 		padding-top:50px;
@@ -725,7 +725,7 @@ body{
 		
 	#designheader,#powerheader{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		text-align:center;
 		font-family:Overpass;
@@ -763,7 +763,7 @@ body{
 		}
 		
 	#designcontents,#powercontents{
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		}
 	
@@ -805,7 +805,7 @@ body{
 		
 	.pcontent{
 		width:50%;
-		max-width:600px;
+		max-width:550px;
 		font-family:Overpass;
 		font-weight:300;
 		font-size:14px;
@@ -845,7 +845,7 @@ body{
 		
 	#artin{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		position:relative;
 		padding:3em 0;
@@ -895,7 +895,7 @@ body{
 	
 	#footerin{
 		width:100%;
-		max-width:1200px;
+		max-width:1100px;
 		margin:auto;
 		}
 		
