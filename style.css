@@ -900,12 +900,12 @@ body{
 		}
 		
 	#footerlogo{
-		width:30%;
+		width:27%;
 		float:left;
 		}
 		
 	#footermenu{
-		width:50%;
+		width:73%;
 		float:left;
 		display:flex;
 		align-items:flex-start;
