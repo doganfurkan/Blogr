@@ -378,12 +378,12 @@ body{
 		max-width:1200px;
 		margin:auto;
 		position:relative;
-		height:300px;
+		padding:3em 0;
 		}
 		
 	#artin img{
 		width:100%;
-		transform:translateY(-40%);
+		transform:translateY(-21%);
 	}
 	
 	#artcontent{
