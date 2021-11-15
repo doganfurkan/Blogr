@@ -936,6 +936,7 @@ body{
 		font-size:.9em;
 		cursor:pointer;
 		color:#888;
+		padding:0 0 .5em;
 		}
 		
 	#footermenu li:hover{
